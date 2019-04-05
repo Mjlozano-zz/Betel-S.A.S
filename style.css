@@ -27,6 +27,7 @@
     padding: 0;
 }
 
+
 body,
 html {
     font-family: 'Roboto', sans-serif;
@@ -480,7 +481,7 @@ img {
     background-position: center center;
 }
 
-.hero-slides {
+.hero-s {
     position: relative;
     z-index: 2;
 }
@@ -496,6 +497,7 @@ img {
     font-size: 60px;
     color: #fff;
     line-height: 1.8;
+    margin-top: 100px;
 }
 
 .hero-slide-content h4 {
@@ -506,7 +508,7 @@ img {
 
 .hero-slide-content .slide-img {
     color: #fff;
-    margin-top: 100px;
+    margin-top: 0px;
     font-weight: 400;
 }
 
@@ -519,7 +521,7 @@ img {
     line-height: 60px;
     text-align: center;
     top: 50%;
-    margin-top: -30px;
+    margin-top: -20px;
     left: 50px;
     border-radius: 50%;
     color: #a2baff;
@@ -617,7 +619,7 @@ img {
     margin-bottom: 60px;
 }
 
-.mosh-features-area .section-heading h2 {
+.mosh-features-area .section-heading h3 {
     color: #fff;
 }
 
@@ -1044,6 +1046,7 @@ span.accor-open {
 
 .few-words-from-ceo {
     overflow-x: hidden;
+    
 }
 
 .mosh-about-us-content .section-heading {
@@ -1055,7 +1058,7 @@ span.accor-open {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
-    max-width: 50%;
+   
     height: 770px;
 }
 
@@ -1072,7 +1075,19 @@ span.accor-open {
 }
 
 .few-words-text > p {
-    margin-bottom: 0;
+    margin: 0px;
+}
+
+.rowjustify-content-center{
+    padding: 0px;
+}
+
+.historia {
+    text-align: justify;
+}
+
+.container-fluid {
+    pa
 }
 
 .ceo-meta-data .ceo-thumb {
